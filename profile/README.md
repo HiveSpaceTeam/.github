@@ -60,7 +60,7 @@ Migration stages:
   - Product Catalog
   - Order, Payment, etc.
 - Storage: PostgreSQL, MongoDB, Redis
-- Auth: IdentityServer (custom UI integration)
+- Auth: IdentityServer 
 
 ### 🖼️ Frontend
 
