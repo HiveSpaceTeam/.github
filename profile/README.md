@@ -1,6 +1,6 @@
 # 🚀 Hivespace Project
 
-> A brief, one-liner description of your app's purpose or domain.  
+> A side project to learn and apply acquired knowledge in architecture, design, cloud, and DevOps principles, including microservices, domain-driven design, and Azure. We plan to built an e-commerce system, designed for scalability and adaptability to address key challenges in the e-commerce space.  
 > [🇻🇳 Xem bản Tiếng Việt tại đây](./README.vi.md)
 
 ---
@@ -8,17 +8,16 @@
 ## 📖 Table of Contents
 
 1. [Overview](#overview)
-2. [Current Architecture](#current-architecture)
-3. [Migration Plan: Monolith ➜ Microservices](#migration-plan-monolith--microservices)
-4. [Project Structure](#project-structure)
+2. [Architecture](#architecture)
+3. [Project Structure](#project-structure)
     - [Backend](#backend)
     - [Frontend](#frontend)
+4. [Migration Plan: Monolith ➜ Microservices](#migration-plan)
 5. [DevOps](#devops)
-6. [Tech Stack](#tech-stack)
+6. [Technology](#technology)
 7. [Popular Libraries & Design Patterns](#popular-libraries--design-patterns)
 8. [Inspiration & References](#inspiration--references)
 
----
 
 ## 📘 Overview
 
@@ -26,34 +25,29 @@ Describe the purpose of the project. What problem does it solve?
 Who is the target user?  
 How is it deployed or used?
 
----
 
-## 🏗️ Current Architecture
+## 🏗️ Architecture
+We attempt to learn and combine multiple architectural patterns and styles together, such as:
+- Domain driven design
+- Event driven architecture
+- Command Query Responsibility Segregation (CQRS)
 
-Currently implemented as a **monolithic application**.
+As this is a side project, starting with a monolith makes development simpler and faster. It helps validate core business logic and domain boundaries before the complexity of microservices, Key reasons:
+- Faster iteration: Single codebase means less setup and faster prototyping.
+- Easier debugging: Everything is in one place — no need to manage distributed logging or tracing.
+- Domain clarity: Helps you better understand and model business domains before splitting them.
+- Avoid premature complexity: Microservices introduce networking, data consistency, and deployment challenges — overkill for an early stage or solo project.
 
-- Technologies used in the monolith
-- Basic diagram (optional)
-- Challenges faced with current structure
+Once stable, we can confidently split into microservices using clear, tested domain boundaries.
 
----
+We're transitioning to a microservices-based architecture to enable modular deployment and independent scaling with better separation of concern.
 
-## 🛠️ Migration Plan: Monolith ➜ Microservices
-
-We aim to transition to a **microservice architecture**.  
-Here’s why:
-
-- Scalability
-- Independent deployment
-- Better separation of concerns
 
 Migration stages:
-
 1. Service extraction plan
 2. Communication (e.g., REST, gRPC, messaging)
 3. Deployment considerations (e.g., Docker, Kubernetes)
 
----
 
 ## 🧱 Project Structure
 
@@ -74,7 +68,9 @@ Migration stages:
 - Authentication integration (OIDC with IdentityServer)
 - Shared UI components & feature flags
 
----
+
+## 🛠️ Migration Plan: Monolith ➜ Microservices
+
 
 ## 🔧 DevOps
 
@@ -83,9 +79,8 @@ Migration stages:
 - Deployment tools: Docker, Kubernetes (planned/used)
 - Local emulation: Azurite
 
----
 
-## 📚 Tech Stack
+## 📚 Technology
 
 | Layer        | Technology                    |
 |--------------|-------------------------------|
@@ -97,7 +92,6 @@ Migration stages:
 | DevOps       | Jenkins, Docker, Kubernetes   |
 | Cloud        | Azure                         |
 
----
 
 ## 🔍 Popular Libraries & Design Patterns
 
@@ -111,15 +105,12 @@ Migration stages:
 
 (You can extend with diagrams like [Sairyss/domain-driven-hexagon](https://github.com/Sairyss/domain-driven-hexagon))
 
----
 
 ## 🧭 Inspiration & References
 
 - [Sairyss/domain-driven-hexagon](https://github.com/Sairyss/domain-driven-hexagon) – Architecture inspiration
 - [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) – Language toggle structure
 - [Awesome .NET Microservices](https://github.com/thangchung/awesome-dotnet-core#microservices)
-
----
 
 ## 🗣️ Contributions & Feedback
 
