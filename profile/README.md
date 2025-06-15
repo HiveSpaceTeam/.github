@@ -48,7 +48,6 @@ This long-term vision allows me to:
 
 Ultimately, this project is a **sandbox for continuous learning**, built around a real-world problem space with broad application across industries.
 
----
 
 ## Architecture
 
@@ -76,7 +75,6 @@ Once stable, we will transition to microservices for:
 2. **Communication:** Implement REST, gRPC, or messaging protocols.
 3. **Deployment:** Use Docker and Kubernetes for containerization and orchestration.
 
----
 
 ## Project Structure
 
@@ -91,7 +89,9 @@ The backend project is hosted in [this repo](https://github.com/HiveSpaceTeam/hi
 
 ### Backend microservices
 
----
+
+## 🛠️ Migration Plan: Monolith ➜ Microservices
+
 
 ## DevOps
 
@@ -100,7 +100,6 @@ The backend project is hosted in [this repo](https://github.com/HiveSpaceTeam/hi
 - **Deployment Tools:** Docker and Kubernetes for containerization and orchestration.
 - **Local Emulation:** Azurite for Azure services.
 
----
 
 ## Technology
 
@@ -114,7 +113,6 @@ The backend project is hosted in [this repo](https://github.com/HiveSpaceTeam/hi
 | DevOps       | Jenkins, Docker, Kubernetes   |
 | Cloud        | Azure                         |
 
----
 
 ## Popular Libraries & Design Patterns
 
@@ -133,8 +131,6 @@ The backend project is hosted in [this repo](https://github.com/HiveSpaceTeam/hi
 - [Sairyss/domain-driven-hexagon](https://github.com/Sairyss/domain-driven-hexagon) – Architecture inspiration
 - [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) – Language toggle structure
 - [Awesome .NET Microservices](https://github.com/thangchung/awesome-dotnet-core#microservices)
-
----
 
 ## 🗣️ Contributions & Feedback
 
