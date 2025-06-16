@@ -1,19 +1,19 @@
 <p><a target="_blank" href="https://app.eraser.io/workspace/AT46KPSmysGG3uqr7lVk" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
 # 🛒 Hivespace Project
-> [﻿🇻🇳 Xem bản Tiếng Việt tại đây](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.vi.md) 
+> [Xem bản Tiếng Việt tại đây](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.vi.md) 
 
 ## Table of Contents
-1. [﻿Overview](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#overview) 
-2. [﻿Architecture](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#architecture) 
-3. [﻿Project Structure](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#project-structure) 
-    - [﻿Backend](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#backend) 
-    - [﻿Frontend](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#frontend) 
-4. [﻿DevOps](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#devops) 
-5. [﻿Technology](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#technology) 
-6. [﻿Popular Libraries & Design Patterns](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#popular-libraries--design-patterns) 
-7. [﻿Inspiration & References](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#inspiration--references) 
-8. [﻿Contributions & Feedback](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#contributions--feedback) 
+1. [Overview](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#overview) 
+2. [Architecture](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#architecture) 
+3. [Project Structure](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#project-structure) 
+    - [Backend](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#backend) 
+    - [Frontend](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#frontend) 
+4. [DevOps](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#devops) 
+5. [Technology](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#technology) 
+6. [Popular Libraries & Design Patterns](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#popular-libraries--design-patterns) 
+7. [Inspiration & References](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#inspiration--references) 
+8. [Contributions & Feedback](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#contributions--feedback) 
 This project is a side side project designed to apply and deepen knowledge of software architecture, backend development, cloud services, and DevOps principles. It simulates a simplified but realistic e-commerce platform inspired by real-world systems like Shopee or TiktokShop.
 
 Although e-commerce systems are common, they are far from trivial to build well. A robust e-commerce platform touches on many real-world concerns such as:
@@ -21,12 +21,15 @@ Although e-commerce systems are common, they are far from trivial to build well.
 - User authentication and profile management
 - Product catalog with search and filters
 - Shopping cart and order placement
+
 We chose e-commerce because it provides a rich learning ground that can evolve over time. Starting with the core buyer experience, I aim to incrementally extend the system to include more advanced domains like:
 
 - **Seller Center** (multi-vendor marketplace features)
 - **Logistics Management** (order tracking, delivery scheduling)
 - **Customer Engagement** (reviews, ratings, recommendations)
 - **Social Commerce** (user feeds, livestream shopping, chat support)
+
+
 This long-term vision allows me to:
 
 - Practice building modular, maintainable codebases
@@ -39,7 +42,7 @@ Ultimately, this project is a **sandbox for continuous learning**, built around 
 ## Architecture
 We combine multiple architectural patterns and styles, including:
 
-- [﻿Domain-Driven Design](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/architecture/domain-driven-design.md) 
+- [Domain-Driven Design](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/architecture/domain-driven-design.md) 
 - Event-Driven Architecture
 - Command Query Responsibility Segregation (CQRS)
 ### Why Start as a Monolith?
@@ -47,7 +50,7 @@ We combine multiple architectural patterns and styles, including:
 2. **Simpler Infrastructure**: No need to set up Kubernetes, service discovery, API gateways, or distributed tracing right away.
 3. **Easier Debugging**: Logs, stack traces, and errors are in one place, making it easier to understand what’s happening.
 4. **Lower Cognitive Overhead**: Focus more on the business logic and feature development rather than system design complexity.
-Below is the architecture of current monolith backend application which include 3 layer and the details of each layer will be presented in [﻿Backend](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#backend).
+Below is the architecture of current monolith backend application which include 3 layer and the details of each layer will be presented in [Backend](https://file+.vscode-resource.vscode-cdn.net/e%3A/Project/Hivespace/.github/profile/README.md#backend).
 
 ### Transition to Microservices
 Once stable, we will transition to microservices for:
@@ -64,7 +67,7 @@ Once stable, we will transition to microservices for:
 The frontend is built using Vue.js and Vite for a fast and modern development experience.
 
 ### Backend
-The backend project is hosted in [﻿this repo](https://github.com/HiveSpaceTeam/hivespace.backend), include 3 projects corresponding to 3 layered:
+The backend project is hosted in [this repo](https://github.com/HiveSpaceTeam/hivespace.backend), include 3 projects corresponding to 3 layered:
 
 1. **Application Layer:** Handles user interactions and orchestrates business logic.
 2. **Domain Layer:** Contains core business logic and domain models.
@@ -97,9 +100,9 @@ The backend project is hosted in [﻿this repo](https://github.com/HiveSpaceTeam
 ---
 
 ## Inspiration & References
-- [﻿Sairyss/domain-driven-hexagon](https://github.com/Sairyss/domain-driven-hexagon)  – Architecture inspiration
-- [﻿MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)  – Language toggle structure
-- [﻿Awesome .NET Microservices](https://github.com/thangchung/awesome-dotnet-core#microservices) 
+- [Sairyss/domain-driven-hexagon](https://github.com/Sairyss/domain-driven-hexagon)  – Architecture inspiration
+- [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)  – Language toggle structure
+- [Awesome .NET Microservices](https://github.com/thangchung/awesome-dotnet-core#microservices) 
 ## Contributions & Feedback
 > Have suggestions or ideas? Feel free to open an issue or submit a PR.
 
