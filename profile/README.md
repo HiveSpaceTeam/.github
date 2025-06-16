@@ -1,7 +1,7 @@
 # 🛒 Hivespace Project
 
 <!-- > A side project to learn and apply acquired knowledge in architecture, design, cloud, and DevOps principles, including microservices, domain-driven design, and Azure. We aim to build an e-commerce system designed for scalability and adaptability to address key challenges in the e-commerce space.   -->
-<!-- > [🇻🇳 Xem bản Tiếng Việt tại đây](./README.vi.md) -->
+> [🇻🇳 Xem bản Tiếng Việt tại đây](./README.vi.md)
 
 ## 📖 Table of Contents
 1. [﻿Overview](#overview) 
