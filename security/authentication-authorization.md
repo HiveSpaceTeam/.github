@@ -23,7 +23,7 @@ An "authentication scheme" is a named configuration that defines:
 - **Cookie Authentication**: Ideal for traditional web applications (MVC, Razor Pages) where sessions are managed via cookies
 - **JWT Bearer Authentication**: Commonly used for APIs and SPA where token is sent with each request
 - **OpenID Connect (OIDC)**: For integrating with external identity providers (Google, Facebook,...)
-### **Claims & **`ClaimsPrincipal` 
+### Claims & `ClaimsPrincipal` 
 After successful authentication, .NET creates a `ClaimsPrincipal `object, which represents the authenticated user and contains a collection of "claims"
 
 **Claims**: a piece of information or a statement about the user. Examples:
