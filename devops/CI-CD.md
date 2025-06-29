@@ -21,11 +21,14 @@ Triggered on:
 - Merges to `production.g2` (for staging)
 
 Steps:
-1. **Build Docker Image** – Tag with version or commit hash.
-2. **Push to Docker Registry** – Upload image to DockerHub / ACR 
-3. **Deploy to Environment** – Use Helm or Kubernetes manifests.
-4. **Run Smoke Tests** – Verify basic functionality.
-5. **Notify Team** – Slack/email notification of deployment status.
+1. **Notify team about the start of the build** – Slack/email notification about the start of the build.
+2. **Checkout code** - Checkout code from Github
+3. **Build and Push Docker Image** – Tag with version and then upload image to DockerHub / ACR 
+4. **Sync Helm** – Update manifests and push to Helm repo
+4. **Notify Team** – Slack/email notification of deployment status.
+
+
+
 
 ## Branch Strategy
 
