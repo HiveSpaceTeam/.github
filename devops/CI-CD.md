@@ -27,7 +27,7 @@ Steps:
 4. **Sync Helm** – Update manifests and push to Helm repo
 4. **Notify Team** – Slack/email notification of deployment status.
 
-
+![alt text](image-1.png)
 
 
 ## Branch Strategy
