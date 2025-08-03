@@ -13,7 +13,7 @@ OAuth 2.0 định nghĩa bốn vai trò chính :
 - **Resource Owner (Chủ sở hữu tài nguyên)**: Người dùng sở hữu tài nguyên và cấp quyền truy cập.  
 - **Client (Ứng dụng khách)**: Ứng dụng bên thứ ba muốn truy cập tài nguyên của Resource Owner thông qua Resource Server.  
 - **Authorization Server (Máy chủ ủy quyền)**: hệ thống chịu trách nhiệm xác thực Resource Owner và cấp mã ủy quyền/token cho Client.  
-- **Resource Server (Máy chủ tài nguyên)**: Hệ thống lưu trữ lưu trữ và quản lý tài nguyên được bảo vệ, cấp quyền truy cập dựa trên Access Token hợp lệ. 
+- **Resource Server (Máy chủ tài nguyên)**: Hệ thống lưu trữ và quản lý tài nguyên được bảo vệ, cấp quyền truy cập dựa trên Access Token hợp lệ. 
 
 ### Mã thông báo truy cập (Access Token)
 `Access Token` là một mảnh dữ liệu đại diện cho quyền ủy quyền mà Client được cấp để truy cập tài nguyên. Nó được cấp bởi Authorization Server và được Client sử dụng để gửi đến Resource Server.  
